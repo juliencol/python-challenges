@@ -1,47 +1,46 @@
-import math
+# Warning
+# All following functions can take up to 3 arguments as input but should only return one value as output
 
-# Exercise 1
-# Write a function that returns the area of a circle given its radius R as a parameter
+# Exercise 1 (easy)
+# Implement the following function get_circle_area
+# input: a number R representing the radius of a given circle
+# output: a float equals to the area of a circle which radius is R
+# restrictions / hint : you must use a library
 
+def get_circle_area(R):
+    return 0
 
-def getArea(R):
-    return math.pi * R ** 2
-
-# Testing getArea
-# print(getArea(2)) # 6.28
-
-# Exercise 2
-# Write a Python program which accepts the user's first and last name and print
-# them in reverse order with a space between them.
-
-
-def reverseName(firstName, lastName):
-    firstName, lastName = list(firstName), list(lastName)
-    firstName.reverse(), lastName.reverse()
-    newFirstName, newLastName = "".join(firstName), "".join(lastName)
-    return newFirstName + " " + newLastName
-
-# Testing reverseName
-# print(reverseName("julien", "colombain"))
-# print(reverseName("alexandre", "jallet"))
+# Test your code for exercise 1
+print(get_circle_area(2)) # 6.28
+print(get_circle_area(3)) # 28.27
 
 
-def myReverseName(firstName, lastName):
-    firstName, lastName = list(firstName), list(lastName)
-    newFirstName, newLastName = '', ''
-    for i in firstName:
-        newFirstName = i + newFirstName
-    for i in lastName:
-        newLastName = i + newLastName
-    return newFirstName + " " + newLastName
+
+# Exercise 2.1 (medium)
+# Implement the following function reverse_names
+# input: two strings representing a first name and a last name
+# output: the same two strings reversed
+# restrictions: you must use the .reverse built in Python's method
+
+def reverse_names(firstName, lastName):
+    return 0
+
+# Test your code here for exercise 2.1
+print(reverse_names("julien", "colombain")) # neiluj niabmoloc
+print(reverse_names("alexandre", "jallet")) # erdnaxela tellaj
 
 
-# Testing myReverseName()
-print(myReverseName("julien", "colombain"))
-print(myReverseName("alexandre", "jallet"))
 
+# Exercise 2.2 (hard)
+# Implement the following function reverse_names
+# input: two strings representing a first name and a last name
+# output: the same two strings reversed
+# restrictions: you must not use the .reverse built in Python's method but build it yourself
 
-# Exercise 4
-# Write a Python program to calculate number of days between two dates.
-# Sample dates : (2014, 7, 2), (2014, 7, 11)
-# Expected output : 9 days
+def my_reverse_names(firstName, lastName):
+    return 0
+
+# Test your code here for exercise 2.2
+print(my_reverse_names("julien", "colombain")) # neiluj niabmoloc
+print(my_reverse_names("alexandre", "jallet")) # erdnaxela tellaj
+
