@@ -7,11 +7,12 @@
 # Implement the following function get_triangle_area
 # input: base of a triangle, height of a triangle (both in centimeters)
 # output: area of the triangle
+# restrictions: none
 
 def get_triangle_area(base, height):
     return 0
 
-# Test your code for exercise 1
+# Test your code for exercise 1g
 print(get_triangle_area(2, 3))  # 3
 print(get_triangle_area(4, 2))  # 4
 
@@ -21,6 +22,7 @@ print(get_triangle_area(4, 2))  # 4
 # A number is symmetrical when it is the same as its reverse. ()
 # Implement the following function is_symmetrical
 # output: True or False depending if the input is a symmetrical number or not
+# restrictions: none
 
 def is_symmetrical(number):
     return 0
@@ -35,6 +37,7 @@ print(is_symmetrical(12567))  # False
 # Implement the following function get_multiples
 # input: number (integer), length(integer)
 # output: list of multiples of number up to length
+# restrictions: none
 
 def get_multiples(number, length):
     return 0
@@ -50,6 +53,7 @@ print(get_multiples(12, 10))  # [12, 24, 36, 48, 60, 72, 84, 96, 108, 120]
 # Implement the following function get_quadratic_equation_solution
 # input: a, b and c coefficients of a quadratic equation
 # output: number of solutions and solutions formatted in a string
+# restrictions: none
 
 def get_quadratic_equation_solutions(a, b, c):
     return 0
@@ -65,6 +69,7 @@ print(get_quadratic_equation_solutions(1, 0, 1)) # the given equation has no sol
 # Implement the following function insert_white_space
 # input: phrase without white spaces ("SheWalksToTheBeach")
 # output: phrase with white spaces ("She Walks To The Beach")
+# restrictions: none
 
 def insert_white_space(phrase):
     return 0
@@ -81,6 +86,7 @@ print(insert_white_space("MarvinTalksTooMuch")) # "Marvin Talks Too Much"
 # Implement the following function is_untouchable
 # input: a given number (integer)
 # output: a boolean set to True if the given number is untouchable and False if not
+# restrictions: none
 
 def is_untouchable(number):
     return 0
