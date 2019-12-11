@@ -1,77 +1,48 @@
-L = [1, 3, 4, 9, 16]
+# Warning
+# All following functions can take up to 3 arguments as input but should only return one value as output
 
-# Write a function that returns the sum of all the element in L
-def sumL():
-	result = 0
-	for element in L:
-		result += element
-	return result
+# Exercise 1.1 (medium)
+# Implement the following function get_sum_of_even_elements_in_list_with_for_loop
+# input: a list of integers L
+# output: an integer equals sum of all element in L
+# restrictions: you must use a for loop
 
-# Testing sumL
-print(sumL()) # 33
+def get_sum_of_even_elements_in_list_with_for_loop(L):
+	return 0
 
-# Same exercise using a while lopp
-def sumLW():
-	i = 0
-	result = 0
-	while(i < len(L)):
-		result += L[i]
-		i += 1
-	return result
-
-# Testing sumLWithWile
-print(sumL() == sumLW()) # True
+# Test your code for exercise 1.1
+print(get_sum_of_even_elements_in_list_with_for_loop([1, 2, 3, 4])) # 6
+print(get_sum_of_even_elements_in_list_with_for_loop([1, 3, 5, 7])) # 0
 
 
-# Write a function that returns the sum of all the even element in L
-def sumEvenL():
-	result = 0
-	for element in L:
-		if element % 2 == 0:
-			result += element
-	return result
 
-# Testing sumEvenInL
-print(sumEvenL()) # 33
+# Exercise 1.2 (medium)
+# Implement the following function get_sum_of_even_elements_in_list_with_while_loop
+# input: a list of integers L
+# output: an integer equals sum of all element in L
+# restrictions: you must use a while loop
 
-# Same exercise using a while loop
-def sumEvenLW():
-	i = 0
-	result = 0
-	while(i < len(L)):
-		if L[i] % 2 == 0:
-			result += L[i]
-		i += 1
-	return result
+def get_sum_of_even_elements_in_list_with_while_loop(L):
+	return 0
 
-# Testing sumEvenLW
-print(sumEvenL() == sumEvenLW()) # True
+# Test your code for exercise 1.2
+print(get_sum_of_even_elements_in_list_with_while_loop([1, 2, 3, 4])) # 6
+print(get_sum_of_even_elements_in_list_with_while_loop([1, 3, 5, 7])) # 0
 
-# Write a function that display every elements in L
-def displayLElements():
-	i = 0
-	while(i < len(L)):
-		print(L[i])
-		i += 1
 
-# Testing displayLElements
-displayLElements()
+# Exercise 2 (medium)
+# Implement the following function are_strings_equals
+# input: two strings: str1 and str2
+# output: True or False
+# restrictions: none
 
-# Write a function that takes two strings as arguments, returns True if two strings are the same and False if not
-def isStringsEqual(str1, str2):
-	if (len(str1) == len(str2)):
-		return False
-	for i in range(len(str1)):
-		if str1[i] == str2[i]:
-			return True
-	return False
+def are_strings_equals(str1, str2):
+	return 0
 
-# Testing isStringsEqual
-print(isStringsEqual("test", "test")) # True
-print(isStringsEqual("test", "not test")) # False
-print(isStringsEqual("test", "tet")) # F
-
-	
+# Test your code for exercise 2
+print(are_strings_equals("test", "test")) # True
+print(are_strings_equals("test", "not test")) # False
+print(are_strings_equals("test", "tet")) # F
 
 
 
