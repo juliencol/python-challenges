@@ -1,4 +1,4 @@
-# python-exercises
+# Python exercises
 Basic programming exercises in Python for my students.
 
 # Run your file
