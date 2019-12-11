@@ -1,5 +1,5 @@
 # Warning
-# All following functions can takes up to 3 arguments as input but should only return one value as output
+# All following functions can take up to 3 arguments as input but should only return one value as output
 
 
 
