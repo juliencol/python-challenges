@@ -1,4 +1,4 @@
-# Python exercises
+# Python challenges
 Whether you are a brand new developer or an intermediate one who wants to sharpen his skills, follow my set of exercises and become a python beast!
 
 # Setup a python environment
